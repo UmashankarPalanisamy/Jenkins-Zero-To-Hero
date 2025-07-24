@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build-linux:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-late
     strategy:
       max-parallel: 5
 
